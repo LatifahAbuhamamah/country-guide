@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url(wave-bg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top;
+}
+
+.container {
+    background-color: #ffffff;
+    max-width: 37.5em;
+    padding: 3em 2em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.62em;
+    box-shadow: 0 1.25em 1.8em rgba(101, 98, 107, 0.25);
+    max-height: 80vh; 
+    overflow: auto; 
+}
+
+.welcome {
+    margin-bottom: 1rem;
+    color: #625d74;
+    font-size: 2em;
+
+}
+
+.main-form {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.25em;
+}
+
+.main-form button {
+    font-size: 1em;
+    background-color: #8a16fe;
+    color: #ffffff;
+    padding: 0.3em 0;
+    border: none;
+    border-radius: 1.5em;
+    cursor: pointer;
+
+}
+
+.main-form input {
+    font-size: 1em;
+    padding: 0.8em 0;
+    border: none;
+    border-bottom: 2px solid #8a16fe;
+    outline: none;
+    color: #6812b7;
+}
+
+
+#resultOne {
+    margin-top: 1.25em;
+    color: #6812b7;
+}
+
+
+.container .flag-img {
+    display: block;
+    width: 50%;
+    min-width: 6em;
+    margin: 1.8em auto 1.2em auto;
+}
+
+.container h2 {
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1.8em;
+    color: #5d6274;
+}
+.data-wrapper {
+    margin-bottom: 1em;
+    letter-spacing: 0.3px;
+}
+
+.container h4 {
+    display: inline;
+    font-weight: 800;
+    color: #6812b7;;
+}
+
+.container span {
+    color: #5d6274;
+}
+
+.container h3 {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #fa3b4e;
+}
+
+
+
+@media (min-width: 1920px) {
+    .container {
+        max-width: 45em;
+        max-height: 85vh; 
+    }
+    
+    .welcome {
+        font-size: 2.8em;
+    
+    }
+    
+    .main-form button {
+        font-weight: 450;
+        cursor: pointer;
+    }
+    
+    .main-form input {
+        font-weight: 450;
+    }
+    
+    .container h2 {
+        font-weight: 750;
+
+    }
+    .container h4 {
+        font-weight: 850;
+    }
+    
+    .container h3 {
+        font-size: 1.3em;
+        font-weight: 450;
+    }
+    #resultOne {
+        font-weight: 500;
+    }
+}
+
